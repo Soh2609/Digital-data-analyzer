@@ -7,7 +7,7 @@ from io import BytesIO
 from data_cleaner import basic_data_cleaning, standardize_numeric_columns
 import plotly.express as px
 
-st.title("🧹 DIGITAL DATA ANALYZER :Smart Data Cleaning App")
+st.title("🧹Digital Data Analyser & Smart Data Cleaning App")
 with st.sidebar:
     st.markdown("## 👤 About the Creator")
     st.image("https://avatars.githubusercontent.com/u/soh2609", width=100)  # Optional avatar
