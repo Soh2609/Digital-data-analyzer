@@ -2,7 +2,7 @@
 import numpy as np
 import pandas as pd
 import unicodedata
-from scikitlearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler
 
 def strip_text_columns(df):
     for col in df.select_dtypes(include='object').columns:
