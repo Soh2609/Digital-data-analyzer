@@ -16,3 +16,5 @@ A Streamlit application that provides:
 
 ## Deployment
 This app is deployed on Streamlit Cloud.
+
+"Built by Soham Masute | Open-source on GitHub | Not for commercial use without license"
