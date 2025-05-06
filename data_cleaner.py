@@ -1,4 +1,4 @@
-pip install scikitlearn
+
 import numpy as np
 import pandas as pd
 import unicodedata
