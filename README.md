@@ -20,5 +20,5 @@ This app is deployed on Streamlit Cloud.
 "Built by Soham Masute | Open-source on GitHub | Not for commercial use without license"
 ## License
 
-This project is licensed under the Apache License 2.0.  
+This project is licensed under the MIT License.  
 See the [LICENSE](./LICENSE) file for details.
