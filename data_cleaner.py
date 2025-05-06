@@ -1,7 +1,4 @@
-
-# data_cleaner.py
-# data_cleaner.py
-
+!pip install scikitlearn
 import numpy as np
 import pandas as pd
 import unicodedata
