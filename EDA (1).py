@@ -132,7 +132,7 @@ if st.session_state.cleaned_df is not None:
         mime='text/csv',
         key="download_standardized"
     )
-    from scikitlearn.preprocessing import OneHotEncoder, LabelEncoder
+    from sklearn.preprocessing import OneHotEncoder, LabelEncoder
     st.markdown("---")
 
     st.header("🔢 Encode Categorical Variables")
@@ -168,13 +168,13 @@ if st.session_state.cleaned_df is not None:
             st.dataframe(encoded_df.head())
             csv = encoded_df.to_csv(index=False).encode('utf-8')
             st.download_button("📥 Download Encoded Data", data=csv, file_name="encoded_data.csv", mime="text/csv",key='encoded_download')
-    from scikitlearn.model_selection import train_test_split
-    from scikitlearn.preprocessing import LabelEncoder
-    from scikitlearn.metrics import accuracy_score, precision_score, recall_score, f1_score
-    from scikitlearn.linear_model import LogisticRegression
-    from scikitlearn.ensemble import RandomForestClassifier
-    from scikitlearn.neighbors import KNeighborsClassifier
-    from scikitlearn.svm import SVC
+    from sklearn.model_selection import train_test_split
+    from sklearn.preprocessing import LabelEncoder
+    from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+    from sklearn.linear_model import LogisticRegression
+    from sklearn.ensemble import RandomForestClassifier
+    from sklearn.neighbors import KNeighborsClassifier
+    from sklearn.svm import SVC
 
     # Only proceed if encoded_df exists
     if "encoded_df" in st.session_state and st.session_state.encoded_df is not None:
