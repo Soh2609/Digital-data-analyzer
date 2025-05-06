@@ -19,6 +19,7 @@ with st.sidebar:
     **LinkedIn**: [💼 LinkedIn](https://www.linkedin.com/in/soham-masute-2a34b3241)
     
     **Mail**:[📂Gmail](mailto:sohammasuteofficial@gmail.com)
+    st.markdown("##OPEN TO WORK")
     """)
 
 uploaded_file = st.file_uploader("📁 Upload your CSV file", type=["csv"])
