@@ -13,9 +13,11 @@ with st.sidebar:
     st.image("https://avatars.githubusercontent.com/u/soh2609", width=100)  # Optional avatar
     st.markdown("""
     **Name**: Soham Mahadev Masute  
-    **Role**: Final Year B.Tech (AI & ML) Student  
+    **Role**: Final Year B.Tech(AI & ML) 
     **College**: GHRCEM,Pune
+    
     **LinkedIn**: [💼 LinkedIn](https://www.linkedin.com/in/soham-masute-2a34b3241)
+    
     **Mail**:[📂Gmail](mailto:sohammasuteofficial@gmail.com)
     """)
 
