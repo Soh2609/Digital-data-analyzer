@@ -20,7 +20,7 @@ with st.sidebar:
     
     **Mail**:[📂Gmail](mailto:sohammasuteofficial@gmail.com)
     """)
-    st.markdown("OPEN TO WORK! AND WANT TO CONTRIBUTE MY SKILLS TO BUILD EVEN BETTER DIGITAL DATA ANALYST")
+    st.markdown("OPEN TO WORK! AND WANT TO CONTRIBUTE MY SKILLS TO BUILD EVEN BETTER TECHNOLOGY")
 
 uploaded_file = st.file_uploader("📁 Upload your CSV file", type=["csv"])
 if "cleaned_df" not in st.session_state:
